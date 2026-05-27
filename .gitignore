@@ -1,0 +1,71 @@
+# ============================================================
+# LaTeX build artifacts — generated on every compile, no need
+# to share these with teammates
+# ============================================================
+
+# Core auxiliary files
+*.aux
+*.fls
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.loa
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# latexmk cache/state
+*.fdb_latexmk
+
+# SyncTeX (editor source ↔ PDF sync)
+*.synctex.gz
+*.synctex(busy)
+
+# Glossary / nomenclature
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.nlo
+*.nls
+*.nlg
+*.ist
+*.maf
+*.mtc
+*.mtc*
+
+# Index
+*.idx
+*.ind
+*.ilg
+
+# Miscellaneous
+*.dvi
+*.xdv
+*.nav
+*.snm
+*.vrb
+*.figlist
+*.makefile
+*.md5
+_minted-*/
+*.pyg
+
+# ============================================================
+# Output PDF — teammates compile their own; commit only if you
+# intentionally want a "last-known-good" PDF in the repo
+# (comment out the line below in that case)
+# ============================================================
+*.pdf
+
+# ============================================================
+# macOS noise
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
